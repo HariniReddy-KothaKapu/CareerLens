@@ -1,8 +1,8 @@
 # CareerLens 🔍
 
-### AI-Based Career Skill Gap Analyzer
+### ML-Based Career Skill Gap Analyzer
 
-CareerLens is an AI-powered web application designed to help users identify **skill gaps for various IT career roles**. The system analyzes a user's existing skills and compares them with the required skills for a selected job role to recommend **missing skills and learning paths**.
+CareerLens is an ML-powered web application designed to help users identify **skill gaps for various IT career roles**. The system analyzes a user's existing skills and compares them with the required skills for a selected job role to recommend **missing skills and learning paths**.
 
 The project integrates **Machine Learning and Natural Language Processing (NLP)** techniques to perform intelligent skill comparison using a structured dataset of IT job roles and required skills.
 
@@ -18,7 +18,7 @@ Students and job seekers often struggle to understand **which skills are require
 
 * User Registration and Authentication
 * Skill Input / Resume Skill Extraction
-* IT Job Role Selection (Alphabetically ordered roles)
+* IT Job Role Selection
 * Identification of Missing Skills
 * Skill Recommendations categorized into:
 

@@ -64,21 +64,17 @@ Students and job seekers often struggle to understand **which skills are require
 ## 📊 Working of the System
 
 1. User registers or logs into the platform.
-2. User enters their existing skills or uploads skill information.
+2. User uploads their resume.
 3. User selects a desired IT career role.
 4. The system compares the user skills with the dataset using **NLP-based similarity techniques**.
 5. Missing skills are identified.
 6. The system displays recommended skills categorized by learning level.
-
+7. Personalized course recommendations.
 ---
 
 ## 🚀 Future Enhancements
 
-* Resume upload and automatic skill extraction (PDF parsing)
-* Integration with real-time job market skill data
-* Personalized course recommendations
-* Interactive skill development roadmap
-* Advanced data visualization dashboards
+* Interactive skill development roadmap.
 
 ---
 

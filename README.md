@@ -1,69 +1,95 @@
-# CareerLens - AI-Powered Resume Analysis Platform
+# CareerLens 🔍
 
-A modern web application built with React, TypeScript, Vite, and Tailwind CSS that helps job seekers optimize their resumes for Applicant Tracking Systems (ATS).
+### AI-Based Career Skill Gap Analyzer
 
-## Features
+CareerLens is an AI-powered web application designed to help users identify **skill gaps for various IT career roles**. The system analyzes a user's existing skills and compares them with the required skills for a selected job role to recommend **missing skills and learning paths**.
 
-- **Authentication**: Login and register with localStorage-based auth
-- **Resume Upload**: PDF parsing using pdfjs-dist
-- **Role Selection**: 99+ job roles across 6 categories
-- **ATS Analysis**: 
-  - Skill matching with variations
-  - Section detection
-  - Action verb detection
-  - Quantified achievement detection
-  - Weighted scoring algorithm
-- **Results Dashboard**: 
-  - Visual score gauge
-  - Matched/missing skills by level
-  - Section analysis
-  - Improvement suggestions
-  - Learning resources
+The project integrates **Machine Learning and Natural Language Processing (NLP)** techniques to perform intelligent skill comparison using a structured dataset of IT job roles and required skills.
 
-## Tech Stack
+---
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router
-- pdfjs-dist
-- Lucide React (icons)
+## 📌 Problem Statement
 
-## Getting Started
+Students and job seekers often struggle to understand **which skills are required for a specific career role** and what they are currently missing. CareerLens solves this problem by automatically analyzing user skills and identifying **skill gaps for targeted career paths**.
 
-1. Install dependencies:
-```bash
-npm install
-```
+---
 
-2. Run development server:
-```bash
-npm run dev
-```
+## 🎯 Key Features
 
-3. Build for production:
-```bash
-npm run build
-```
+* User Registration and Authentication
+* Skill Input / Resume Skill Extraction
+* IT Job Role Selection (Alphabetically ordered roles)
+* AI-based Skill Gap Analysis
+* Identification of Missing Skills
+* Skill Recommendations categorized into:
 
-## Project Structure
+  * Beginner
+  * Intermediate
+  * Advanced
+* Visual representation of skill comparison
 
-```
-src/
-├── components/     # Reusable UI components
-├── contexts/       # React contexts (Auth)
-├── data/          # Role database & learning resources
-├── pages/         # Page components
-├── services/      # ATS engine
-├── types/         # TypeScript types
-└── lib/           # Utilities
-```
+---
 
-## Usage
+## 🧰 Tech Stack
 
-1. Register or login
-2. Upload your PDF resume
-3. Select target job role
-4. Click "Analyze Resume"
-5. View detailed results and recommendations
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+
+### Backend
+
+* Python
+* Flask
+
+### Machine Learning / NLP
+
+* Scikit-learn
+* Natural Language Processing (NLP)
+* Skill similarity matching techniques
+
+### Dataset
+
+* Custom dataset containing **IT job roles and their required skills**
+
+### Development Tools
+
+* VS Code
+* Git
+* GitHub
+
+---
+
+## 📊 Working of the System
+
+1. User registers or logs into the platform.
+2. User enters their existing skills or uploads skill information.
+3. User selects a desired IT career role.
+4. The system compares the user skills with the dataset using **NLP-based similarity techniques**.
+5. Missing skills are identified.
+6. The system displays recommended skills categorized by learning level.
+
+---
+
+## 🚀 Future Enhancements
+
+* Resume upload and automatic skill extraction (PDF parsing)
+* Integration with real-time job market skill data
+* Personalized course recommendations
+* Interactive skill development roadmap
+* Advanced data visualization dashboards
+
+---
+
+## 👩‍💻 Author
+
+**Harini Reddy**
+
+charitha
+
+saanvi
+
+---
+
+If you found this project useful, consider giving it a ⭐ on GitHub.

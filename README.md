@@ -19,7 +19,6 @@ Students and job seekers often struggle to understand **which skills are require
 * User Registration and Authentication
 * Skill Input / Resume Skill Extraction
 * IT Job Role Selection (Alphabetically ordered roles)
-* AI-based Skill Gap Analysis
 * Identification of Missing Skills
 * Skill Recommendations categorized into:
 
